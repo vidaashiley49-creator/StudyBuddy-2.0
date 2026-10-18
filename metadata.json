@@ -1,0 +1,6 @@
+{
+  "name": "StudyBuddy AI",
+  "description": "Understand more, study smarter, and achieve your best with your AI personal study partner, quiz generator, flashcards, notes, and exam planner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

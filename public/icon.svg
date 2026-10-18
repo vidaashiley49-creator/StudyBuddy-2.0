@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0f172a" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- App Rounded Base -->
+  <rect width="512" height="512" rx="130" fill="url(#bgGrad)" />
+
+  <!-- Soft glow plate -->
+  <rect x="96" y="148" width="320" height="230" rx="16" fill="#ffffff" fill-opacity="0.12" />
+
+  <!-- Document Body Outline -->
+  <rect x="136" y="140" width="240" height="250" rx="36" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Document Content Bars -->
+  <rect x="186" y="214" width="140" height="26" rx="13" fill="#ffffff" />
+  <rect x="186" y="270" width="112" height="26" rx="13" fill="#ffffff" />
+  <rect x="186" y="326" width="80" height="26" rx="13" fill="#ffffff" />
+
+  <!-- Star Badge Container -->
+  <circle cx="352" cy="150" r="42" fill="#ffffff" />
+  <!-- Star shape -->
+  <path d="M352 124 L359.5 140 L377 141.5 L363.8 153.2 L368 170.5 L352 161.2 L336 170.5 L340.2 153.2 L327 141.5 L344.5 140 Z" fill="url(#starGrad)" />
+</svg>
